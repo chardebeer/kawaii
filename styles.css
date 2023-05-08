@@ -113,3 +113,28 @@ body::before {
     opacity: 0.1;
   }
 }
+.kawaii-button {
+  font-family: 'Kalam', cursive;
+  font-size: 24px; /* Updated font size */
+  background-color: #ff9aa2;
+  color: white;
+  padding: 5px 15px; /* Updated padding */
+  border: 2px solid #ff7a89; /* Added border */
+  border-radius: 50px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.kawaii-button:hover {
+  background-color: #ff7a89;
+  border-color: #ff4a6e; /* Updated border color on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.16), 0 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+.kawaii-button:active {
+  background-color: #ff4a6e;
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16), 0 2px 4px rgba(0, 0, 0, 0.23);
+}
